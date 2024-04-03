@@ -107,13 +107,18 @@
             }
         ]
     },
-    "disk_encryption": null,
+    "disk_encryption": {
+        "encryption_type": "luks",
+        "partitions": [
+            "0aadeac2-1414-4d9c-b094-591f7442ae28"
+        ]
+    },
     "hostname": "archlinux",
     "kernels": [
         "linux"
     ],
     "locale_config": {
-        "kb_layout": "us",
+        "kb_layout": "slovene",
         "sys_enc": "UTF-8",
         "sys_lang": "en_US"
     },
@@ -126,6 +131,7 @@
     "offline": false,
     "packages": [],
     "parallel downloads": 0,
+    "profile_config": null,
     "script": "guided",
     "silent": false,
     "skip_ntp": false,
