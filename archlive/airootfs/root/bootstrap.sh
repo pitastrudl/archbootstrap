@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 pacman-key --init
 pacman -Syu --noconfirm archinstall git ansible
 git clone https://github.com/pitastrudl/archbootstrap
