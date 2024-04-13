@@ -25,4 +25,5 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
   ["/root/bootstrap.sh"]="0:0:755"
+  ["/etc/profile.d/expand_cowsize.sh"]="0:0:755"
 )
