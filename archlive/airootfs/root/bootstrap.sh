@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-pacman-key --init
-pacman-key --populate
-systemctl start archlinux-keyring-wkd-sync
+systemctl start archlinux-keyring-wkd-sync --wait
 pacman -Sy --noconfirm archlinux-keyring
 pacman -Sy --noconfirm git
 git clone https://github.com/pitastrudl/archbootstrap
